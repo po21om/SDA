@@ -26,6 +26,7 @@ class TestMultiply:
 
     def test_multiply_float_numbers_gives_correct_result(self):
         assert multiply(2.5, 2) == 5
+
     @pytest.mark.skip("This test is broken")
     def test_multiply_by_zero_gives_zero(self):
         print("Result should be 0 ", end="") # pytest -s -> wyświetli nam printy

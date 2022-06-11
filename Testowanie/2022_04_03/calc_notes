@@ -1,0 +1,9 @@
+1st op. 2nd result exp what_happend
+10  +   24  1024    34  added strings not int
+10  -   24  14     -14  2nd - 1st
+24  -   10  -14     14  2nd - 1st
+10  *   24  24..24  240 2nd as a str mul by 1st
+0   *   24  ""      0   2nd as a str mul by 1st
+10  /   2   AttributeError  5   div not implemented
+5   **  2   0       25  ** operator not implemented
+5   %   2   0       1   % operator not implemented
